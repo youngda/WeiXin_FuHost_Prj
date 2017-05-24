@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+
+<title>Plupload - Custom example</title>
+
+<!-- production -->
+<!--<script type="text/javascript" src="../js/plupload.full.min.js"></script>-->
+
+
+
+<!-- debug -->
+<script type="text/javascript" src="../js/moxie.js"></script>
+<script type="text/javascript" src="../js/plupload.dev.js"></script>
+<script type="text/javascript" src="../js/qiniu.js"></script>
+
+
+</head>
+<body style="font: 13px Verdana; background: #eee; color: #333">
+
+<form method="post" action="http://up.qiniu.com" enctype="multipart/form-data">
+    <ul>
+        <li>
+            <label for="token">token:</label>
+            <input id="token" name="token" class="ipt" value=""><a target="blank" href="http://jsfiddle.net/gh/get/extjs/4.2/icattlecoder/jsfiddle/tree/master/uptoken">在线生成token</a>
+
+        </li>
+        <li>
+            <label for="key">key:</label>
+            <input name="key" class="ipt" value="">
+        </li>
+        <li>
+            <label for="x:username">姓名(自定义变量):</label>
+            <input name="x:username" class="ipt" value="">
+        </li>
+        <li>
+            <label for="bucket">照片:</label>
+            <input name="file" class="ipt" type="file" />
+        </li>
+        <li>
+            <input type="submit" value="提交">
+        </li>
+    </ul>
+</form>
+
+
+<script type="text/javascript">
+
+</script>
+</body>
+</html>

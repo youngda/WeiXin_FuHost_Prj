@@ -1,0 +1,1 @@
+"F:\Server\php\php-cgi.exe" -b 127.0.0.1:9000 -c "F:\Server\php\php.ini"
